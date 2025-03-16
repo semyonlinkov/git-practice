@@ -24,3 +24,17 @@ git clone https://github.com/semyonlinkov/git-practice
 
 //! 
 git status - показывает статус файлов в репозитории
+
+//! создание алиасов в файле .gitconfig
+[alias]
+    s = status --short
+    l = log --oneline --graph --decorate --all
+    g = log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)'
+    br = branch
+    co = checkout
+
+//! откат изменений 
+git checkout -- index.html - до последнего коммита
+
+git add index.html - добавить файл в промежуточный этап (staged) до коммита
+git restore --staged index.html - убрать файл из промежуточного (unstage) этапа
