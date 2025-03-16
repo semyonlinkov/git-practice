@@ -39,3 +39,4 @@ git checkout -- index.html - до последнего коммита
 git add index.html - добавить файл в промежуточный этап (staged) до коммита
 git restore --staged index.html - убрать файл из промежуточного (unstage) этапа удалив изменения
 git reset index.html - убрать файл из промежуточного (unstage) этапа без удаления изменений
+git reset --hard HEAD^1 - откатыват на 1 коммит назад и удаляет его
