@@ -54,4 +54,4 @@ git chekout [hash] - переход на коммит через хэш
 git push --set-upstream origin develop - пушит ветку
 
 //! Слияние веток
-
+git merge [название ветки] - слияет текущую ветку с выбранной веткой
