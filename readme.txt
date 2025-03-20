@@ -50,3 +50,8 @@ git branch develop - создает ветку develop
 git checkout develop - переход на ветку develop
 git checkout -b develop - создает и переходит на ветку
 git chekout [hash] - переход на коммит через хэш
+
+git push --set-upstream origin develop - пушит ветку
+
+//! Слияние веток
+
